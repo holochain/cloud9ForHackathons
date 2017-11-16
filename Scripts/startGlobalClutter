@@ -1,0 +1,52 @@
+#!/bin/bash
+sleepTime=".9"
+port=8080
+
+cd /home/ubuntu/workspace/release/holochain-alpha0-ubuntu_16.04_64bit/
+
+if [ -d "/home/ubuntu/.holochain" ]; then
+  	printf "♓ Holochain has already been initialised\n"
+else
+	printf "♓ Enter your seed ID for your holochain identity. This can be and email or some other identifier?\n"
+	read holochainIdentity
+	./hcadmin init $holochainIdentity
+fi
+
+echo .
+sleep $sleepTime
+echo .
+sleep $sleepTime
+
+if [ -d "/home/ubuntu/.holochain/clutterglobal" ]; then
+  	printf "♓ clutterglobal has already been initialised\n"
+else
+	echo "♓ Joining the global clutter Holochain App"
+	./hcadmin join clutter clutterglobal
+fi
+
+
+echo "♓ Connecting to the global clutter decentralised net"
+echo .
+sleep $sleepTime
+echo .
+sleep $sleepTime
+
+echo "♓ Copy this webink, and get ready to open your dapp UI in a webbrowser"
+echo "♓"
+echo "           `/home/ubuntu/workspace/Scripts/getWebLink $port`"
+sleep $sleepTime
+echo "♓"
+echo "♓ Once you press enter, the app will take a few seconds to start"
+echo "♓ It will say something like:"
+sleep $sleepTime
+echo
+echo "Serving holochain with DNA hash:Qm...U on port 8080"
+sleep $sleepTime
+echo
+echo "♓ Once the app has started, you can open the link in a webbrowser"
+echo "♓ (If anyone wants to do some UI upgrade work ^-^, head on over to holochain chat room)"
+echo "♓ Press enter to continue"
+read
+
+./hcd --debug --verbose clutterglobal $port
+#HC_ENABLE_ALL_LOGS=1; ./hcd --debug --verbose clutterglobal $port
