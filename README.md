@@ -1,6 +1,8 @@
 # Welcome! to Holochain Hackathons on Cloud9
 * Either you are at the venue, or hooking in remotely. You can share coding sessions with your group, or easily set up independent spaces
-  * Create an account on [Cloud9](https://docs.c9.io/docs/)
+  * Request an invitation to the Cloud9 Holochain Hackathon Team
+    * (Send email to HackathonCoordinator)[mailto: 
+  Create an account on [Cloud9](https://docs.c9.io/docs/)
   * Create yourself a workspace:
     * We ask you to keep the workspace name simple, with no hyphens or other clever characters
     * paste in the clone URL of this repo
