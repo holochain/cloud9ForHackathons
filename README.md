@@ -49,3 +49,7 @@
     * use hcdev init --scaffold (package?) to create the app from the scaffold data
     * what are we going to do about the interface? can we make a basic simple interface? That lets you pick an entry type and fill it in and submit it?
     * can we make a generic widget that calls the correct URL, with some kind of completely generic interface where its just easy to create the correct CRUD url, .... and output what?
+
+
+# Notes
+* It seems clear that we could disregard the "Global Clutter" step, however, I think that moving form a "clutter that just works" to "a clutter for this hackathon", and showing people the underlying mechanism of uniqueness in this way has implicit educational benefits
