@@ -6,7 +6,6 @@
     * I assume this will work properly if they already have an account. most likely.
   * Clone the "xyz" Barcelona hackathon workspace
     * We ask you to keep the workspace name simple, with no hyphens or other clever characters
-    * paste in the clone URL of this repo
       * the outward facing URL for a workspace doesnt seem to be clear if the Name has hyphens or underscores in it
       * photo
 
