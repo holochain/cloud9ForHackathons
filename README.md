@@ -6,6 +6,8 @@
     * paste in the clone URL of this repo
       * https://github.com/Holochain/cloud9ForHackathons.git
     * choose the "blank" workspace type
+      * ![image](https://user-images.githubusercontent.com/239550/32902769-259a7ece-caa8-11e7-964e-087d3d524023.png)
+
     * if you are logged into cloud9, this link should take you to the Create Workspace page
       * https://c9.io/new
 
