@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 hostname=`hostname`
-webHostnameAddress=`echo $hostname | sed 's/\([^-]*\)-\([^-]*\).*/\2.\1/'`
+webHostnameAddress=`echo $hostname | sed 's/\([^-]*\)-\(.*\)-.*/\2.\1/'`
 
 port=8080
 [ -z "$1" ] ||  port=$1
