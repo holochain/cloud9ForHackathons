@@ -19,14 +19,16 @@
     * `make` or a script that calls make
 ## Connect to the global clutter
   * run the global clutter
-    * there is a script for this, which calculates and presents the public facing URL and runs clutter on port 8080
+    * `Scripts/holochain.start.clutterGlobal.sh`
       * its pretty and comfotable to use
       * cloud9 public facing URLs are only on ports 8080, 8081, 8082
+      * it presents you with the correct URL to paste into the browser
+        * assuming there are no - or _ in your Cloud9 Workspace name
     * connect with everyone
     * play some kind of embodied game to share handles with other hackathon people
 ## Connect to the Hackathon clutter
   * Copy the holochainApps/clutterGlobal directory to holochainApps/clutterHackathon
-    * `cp -r holochainApps/globalClutter holochainApps/hackathonClutter
+    * `cp -r holochainApps/globalClutter holochainApps/hackathonClutter`
     * ask your event organiser for the UUID for this specific hackathon
       * (can we make this an embodied holochain game? )
       * UUID= BARCELONA-0000-2039238740- whatever
@@ -34,13 +36,12 @@
       * ![readme md editclutterglobaltoclutterhackathon](https://user-images.githubusercontent.com/239550/32945013-accd81cc-cb46-11e7-8630-036fd8d4daae.jpg)
       * this speaks to gently introducing people to the DNA filesystem, and to the idea that hashes are unique Holochain Apps, without being overly taxing
       * The dna.json file can editted directly in the Cloud9 editor
-        * photos
     * run that holochain app
-      * hcd etc...
-      * this speaks to the education of the command line toold
+      * `hcadmin join holochainApps/clutterHackathon clutterHackathon`
+      * `hcd --debug --verbose clutterHackathon 8081`
+      * this speaks to the education of the command line tool
       * Share handles with people again (this should be easy, use the same ones as last time
       * creates a "private" space for people to chat about this hackathon
-      * can also be on port 8080
 ## Your Project
   * open hc-scaffold
     * videos?
