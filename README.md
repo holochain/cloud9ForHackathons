@@ -10,13 +10,13 @@
     * We ask you to keep the workspace name simple, with no hyphens or other clever characters
       * the outward facing URL for a workspace doesnt seem to be clear if the Name has hyphens or underscores in it
       * photo
-      * *actually this repo isnt outward facing, but I think its good to get the repetition in there*
+      * *actually this repo isnt outward facing, but maybe its good to get the repetition in there*
 
-# Welcome! to Holochain Hackathons on Cloud9
+# Welcome! to Holochain Hackathons on Cloud9 ![holochain circlefire](https://user-images.githubusercontent.com/239550/32946435-620fbf6e-cb4c-11e7-9f63-6c7d51511109.png)
 ## Initialise Holochain
 * If you have completed the previous steps, you should/could be reading this on your new Cloud9 workspace!
-  * Initialise your Cloud9 userspace to be easily compatible with Holochain
-    * `make` or a script that calls make
+  * Initialise your Cloud9 userspace to be compatible with HolochainOnCloud9
+    * `Scripts/system.installHolochainOnCloud9.sh`
 ## Connect to the global clutter
   * run the global clutter
     * `Scripts/holochain.start.clutterGlobal.sh`
