@@ -25,14 +25,13 @@
     * connect with everyone
     * play some kind of embodied game to share handles with other hackathon people
 ## Connect to the Hackathon clutter
-  * Copy the holochainApps/globalClutter directory to holochainApps/hackathonClutter
-    * `cp holochainApps/globalClutter
-    * choose the "blank" workspace type
-      * ![image](https://user-images.githubusercontent.com/239550/32902769-259a7ece-caa8-11e7-964e-087d3d524023.png)
-    * if you are logged into cloud9, this link should take you to the Create Workspace page
-      * https://c9.io/new
-    * get the UUID for this Barcelona hackathon, insert it into the dna.json file
+  * Copy the holochainApps/clutterGlobal directory to holochainApps/clutterHackathon
+    * `cp -r holochainApps/globalClutter holochainApps/hackathonClutter
+    * ask your event organiser for the UUID for this specific hackathon
+      * (can we make this an embodied holochain game? )
       * UUID= BARCELONA-0000-2039238740- whatever
+      * edit the `holochainApps/clutterHackathon/dna/dna.json` file
+      * ![readme md editclutterglobaltoclutterhackathon](https://user-images.githubusercontent.com/239550/32945013-accd81cc-cb46-11e7-8630-036fd8d4daae.jpg)
       * this speaks to gently introducing people to the DNA filesystem, and to the idea that hashes are unique Holochain Apps, without being overly taxing
       * The dna.json file can editted directly in the Cloud9 editor
         * photos
