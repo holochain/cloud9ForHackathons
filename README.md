@@ -10,7 +10,6 @@
     * We ask you to keep the workspace name simple, with no hyphens or other clever characters
       * the outward facing URL for a workspace doesnt seem to be clear if the Name has hyphens or underscores in it
       * photo
-      * *actually this repo isnt outward facing, but maybe its good to get the repetition in there*
 
 # ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Welcome! to Holochain Hackathons on Cloud9
 ## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Initialise Holochain
