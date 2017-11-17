@@ -1,3 +1,5 @@
+![holochain logo transparent oncloud9](https://user-images.githubusercontent.com/239550/32944597-eaa0a29c-cb44-11e7-9dd3-a0e0204bcbb3.png)
+
 # Welcome! to Holochain Hackathons on Cloud9
 * Either you are at the venue, or hooking in remotely. You can share coding sessions with your group, or easily set up independent spaces
   * Request an invitation to the Cloud9 Holochain Hackathon Team
@@ -23,11 +25,8 @@
     * connect with everyone
     * play some kind of embodied game to share handles with other hackathon people
 ## Connect to the Hackathon clutter
-  * create a workspace cloning clutter
-    * We ask you to keep the workspace name simple, with no hyphens or other clever characters
-    * paste in this git URL into the git URL field
-      * https://github.com/Holochain/clutter.git
-      * photo
+  * Copy the holochainApps/globalClutter directory to holochainApps/hackathonClutter
+    * `cp holochainApps/globalClutter
     * choose the "blank" workspace type
       * ![image](https://user-images.githubusercontent.com/239550/32902769-259a7ece-caa8-11e7-964e-087d3d524023.png)
     * if you are logged into cloud9, this link should take you to the Create Workspace page
@@ -54,3 +53,26 @@
 
 # Notes
 * It seems clear that we could disregard the "Global Clutter" step, however, I think that moving form a "clutter that just works" to "a clutter for this hackathon", and showing people the underlying mechanism of uniqueness in this way has implicit educational benefits
+
+## This paradigm below does not work because Cloud9 external ports are ***shared between instances*** which is not at all clear for the user or for me or for anyone, but understandable from their perspective I guess
+### Connect to the Hackathon clutter
+  * create a workspace cloning clutter
+    * We ask you to keep the workspace name simple, with no hyphens or other clever characters
+    * paste in this git URL into the git URL field
+      * https://github.com/Holochain/clutter.git
+      * photo
+    * choose the "blank" workspace type
+      * ![image](https://user-images.githubusercontent.com/239550/32902769-259a7ece-caa8-11e7-964e-087d3d524023.png)
+    * if you are logged into cloud9, this link should take you to the Create Workspace page
+      * https://c9.io/new
+    * get the UUID for this Barcelona hackathon, insert it into the dna.json file
+      * UUID= BARCELONA-0000-2039238740- whatever
+      * this speaks to gently introducing people to the DNA filesystem, and to the idea that hashes are unique Holochain Apps, without being overly taxing
+      * The dna.json file can editted directly in the Cloud9 editor
+        * photos
+    * run that holochain app
+      * hcd etc...
+      * this speaks to the education of the command line toold
+      * Share handles with people again (this should be easy, use the same ones as last time
+      * creates a "private" space for people to chat about this hackathon
+      * can also be on port 8080
