@@ -20,7 +20,7 @@
 ## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Connect to the global clutter
   * run the global clutter
     * `Scripts/holochain.start.clutterGlobal.sh`
-      * its pretty and comfotable to use
+      * the scripts is pretty and comfortable to use
       * cloud9 public facing URLs are only on ports 8080, 8081, 8082
       * it presents you with the correct URL to paste into the browser
         * assuming there are no - or _ in your Cloud9 Workspace name
