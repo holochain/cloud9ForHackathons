@@ -1,6 +1,6 @@
 ![holochain logo transparent oncloud9](https://user-images.githubusercontent.com/239550/32944597-eaa0a29c-cb44-11e7-9dd3-a0e0204bcbb3.png)
 
-# Welcome! to Holochain Hackathons on Cloud9
+# ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Welcome! to Holochain Hackathons on Cloud9
 * Either you are at the venue, or hooking in remotely. You can share coding sessions with your group, or easily set up independent spaces
   * Request an invitation to the Cloud9 Holochain Hackathon Team
     * (Send email to HackathonCoordinator) mailto:, google form? spreadsheet?
@@ -12,12 +12,12 @@
       * photo
       * *actually this repo isnt outward facing, but maybe its good to get the repetition in there*
 
-# Welcome! to Holochain Hackathons on Cloud9 ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png)
-## Initialise Holochain
+# ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Welcome! to Holochain Hackathons on Cloud9
+## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Initialise Holochain
 * If you have completed the previous steps, you should/could be reading this on your new Cloud9 workspace!
   * Initialise your Cloud9 userspace to be compatible with HolochainOnCloud9
     * `Scripts/system.installHolochainOnCloud9.sh`
-## Connect to the global clutter
+## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Connect to the global clutter
   * run the global clutter
     * `Scripts/holochain.start.clutterGlobal.sh`
       * its pretty and comfotable to use
@@ -26,7 +26,7 @@
         * assuming there are no - or _ in your Cloud9 Workspace name
     * connect with everyone
     * play some kind of embodied game to share handles with other hackathon people
-## Connect to the Hackathon clutter
+## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Connect to the Hackathon clutter
   * Copy the holochainApps/clutterGlobal directory to holochainApps/clutterHackathon
     * `cp -r holochainApps/globalClutter holochainApps/hackathonClutter`
     * ask your event organiser for the UUID for this specific hackathon
@@ -42,7 +42,7 @@
       * this speaks to the education of the command line tool
       * Share handles with people again (this should be easy, use the same ones as last time
       * creates a "private" space for people to chat about this hackathon
-## Your Project
+## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Your Project
   * open hc-scaffold
     * videos?
     * create some kind of basic app
