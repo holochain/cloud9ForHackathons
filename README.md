@@ -6,8 +6,9 @@
     * (Send email to HackathonCoordinator) mailto:, google form? spreadsheet?
   * receive email invitation to a cloud9 space 
     * I assume this will work properly if they already have an account. most likely.
-  * Clone the HolochainOnCloud9 hackathon workspace
-    * We ask you to keep the workspace name simple, with no hyphens or other clever characters
+  * navigate to `https://c9.io/holochain`
+  * Clone the `holochainc9` workspace
+    * We ask you to keep your new workspace name simple, with no hyphens or other clever characters
       * the outward facing URL for a workspace doesnt seem to be clear if the Name has hyphens or underscores in it
       * photo
 
