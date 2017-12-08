@@ -14,7 +14,13 @@ else
     mkdir ~/workspace/local
     tar -C ~/workspace/local/ -xf go1.9.2.linux-amd64.tar.gz
     
-    . ~/workspace/Scripts/holochain.system.configureLocalGo.sh
+    export GOROOT=$HOME/workspace/local/go
+    export PATH=$GOROOT/bin:$PATH
+    
+    [ -d "$HOME/workspace/go" ] || mkdir $HOME/workspace/go
+    export GOPATH=$HOME/workspace/go
+    export GOBIN=$GOPATH/bin
+    export PATH=$GOBIN:$PATH
     
     go get -d -v github.com/metacurrency/holochain
     cd ~/workspace/go/src/github.com/metacurrency/holochain
