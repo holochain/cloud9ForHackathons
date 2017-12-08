@@ -3,7 +3,7 @@
 
 #set -x
 
-if [ ! -f ~/workspace/Scripts/holochain.system.holochainHasBeenInstalled ] ; then
+if [ -f ~/workspace/Scripts/holochain.system.holochainHasBeenInstalled ] ; then
     echo "♓: go appears to have been downloaded"
 else
     
