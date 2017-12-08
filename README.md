@@ -3,13 +3,14 @@
 # ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Welcome! to Holochain Hackathons on Cloud9
 * Either you are at the venue, or hooking in remotely. You can share coding sessions with your group, or easily set up independent spaces
   * Request an invitation to the Cloud9 Holochain Hackathon Team
-    * (Send email to HackathonCoordinator) mailto:, google form? spreadsheet?
+    * send your email address to your hackathon coordinator
+    * or ask in the 'General channel on the [Holochain mattermost](https://chat.holochain.net/signup_user_complete/?id=uc7j4tp8jbga78nw363gbgqdxc)
   * receive email invitation to a cloud9 space 
     * I assume this will work properly if they already have an account. most likely.
     * Join as a student
     * Select "Work" as your role type
   * navigate to `https://c9.io/holochain`
-  * create a workspace cloning clutter
+  * create a new cloud9 workspace, with all the Scripts needed to develop on Holochain
     * We ask you to keep the workspace name simple, with no hyphens or other clever characters
     * paste in this git URL into the git URL field
       * https://github.com/Holochain/cloud9ForHackathons.git
@@ -23,10 +24,10 @@
 ## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Initialise Holochain
 * If you have completed the previous steps, you should/could be reading this on your new Cloud9 workspace!
   * Initialise your Cloud9 userspace to be compatible with HolochainOnCloud9
-    * `Scripts/system.installHolochainOnCloud9.sh`
+    * `Scripts/holochain.system.installHolochainOnCloud9.sh`
 ## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Connect to the global clutter
   * run the global clutter
-    * `Scripts/holochain.start.clutterGlobal.sh`
+    * `Scripts/holochain.app.start.clutterGlobalh`
       * the scripts is pretty and comfortable to use
       * cloud9 public facing URLs are only on ports 8080, 8081, 8082
       * it presents you with the correct URL to paste into the browser
