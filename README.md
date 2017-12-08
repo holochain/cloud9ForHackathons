@@ -3,7 +3,8 @@
 # ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Welcome! to Holochain Hackathons on Cloud9
 * Either you are at the venue, or hooking in remotely. You can share coding sessions with your group, or easily set up independent spaces
   * Request an invitation to the Cloud9 Holochain Hackathon Team
-    * (Send email to HackathonCoordinator) mailto:, google form? spreadsheet?
+    * send your email address to your hackathon coordinator
+    * or ask in the 'General channel on the [Holochain mattermost](https://chat.holochain.net/signup_user_complete/?id=uc7j4tp8jbga78nw363gbgqdxc)
   * receive email invitation to a cloud9 space 
     * I assume this will work properly if they already have an account. most likely.
     * Join as a student
