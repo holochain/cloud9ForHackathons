@@ -6,11 +6,18 @@
     * (Send email to HackathonCoordinator) mailto:, google form? spreadsheet?
   * receive email invitation to a cloud9 space 
     * I assume this will work properly if they already have an account. most likely.
+    * Join as a student
+    * Select "Work" as your role type
   * navigate to `https://c9.io/holochain`
-  * Clone the `holochainc9` workspace
-    * We ask you to keep your new workspace name simple, with no hyphens or other clever characters
-      * the outward facing URL for a workspace doesnt seem to be clear if the Name has hyphens or underscores in it
+  * create a workspace cloning clutter
+    * We ask you to keep the workspace name simple, with no hyphens or other clever characters
+    * paste in this git URL into the git URL field
+      * https://github.com/Holochain/cloud9ForHackathons.git
       * photo
+    * choose the "blank" workspace type
+      * ![image](https://user-images.githubusercontent.com/239550/32902769-259a7ece-caa8-11e7-964e-087d3d524023.png)
+    * if you are logged into cloud9, this link should take you to the Create Workspace page
+      * https://c9.io/new
 
 # ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Welcome! to Holochain Hackathons on Cloud9
 ## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Initialise Holochain
@@ -55,16 +62,7 @@
 * It seems clear that we could disregard the "Global Clutter" step, however, I think that moving form a "clutter that just works" to "a clutter for this hackathon", and showing people the underlying mechanism of uniqueness in this way has implicit educational benefits
 
 ## This paradigm below does not work because Cloud9 external ports are ***shared between instances*** which is not at all clear for the user or for me or for anyone, but understandable from their perspective I guess
-### Connect to the Hackathon clutter
-  * create a workspace cloning clutter
-    * We ask you to keep the workspace name simple, with no hyphens or other clever characters
-    * paste in this git URL into the git URL field
-      * https://github.com/Holochain/clutter.git
-      * photo
-    * choose the "blank" workspace type
-      * ![image](https://user-images.githubusercontent.com/239550/32902769-259a7ece-caa8-11e7-964e-087d3d524023.png)
-    * if you are logged into cloud9, this link should take you to the Create Workspace page
-      * https://c9.io/new
+
     * get the UUID for this Barcelona hackathon, insert it into the dna.json file
       * UUID= BARCELONA-0000-2039238740- whatever
       * this speaks to gently introducing people to the DNA filesystem, and to the idea that hashes are unique Holochain Apps, without being overly taxing
