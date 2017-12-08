@@ -23,10 +23,10 @@
 ## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Initialise Holochain
 * If you have completed the previous steps, you should/could be reading this on your new Cloud9 workspace!
   * Initialise your Cloud9 userspace to be compatible with HolochainOnCloud9
-    * `Scripts/system.installHolochainOnCloud9.sh`
+    * `Scripts/holochain.system.installHolochainOnCloud9.sh`
 ## ![holochain circlefire 8x8](https://user-images.githubusercontent.com/239550/32946475-8baf402e-cb4c-11e7-8eed-7952614737f6.png) Connect to the global clutter
   * run the global clutter
-    * `Scripts/holochain.start.clutterGlobal.sh`
+    * `Scripts/holochain.app.start.clutterGlobalh`
       * the scripts is pretty and comfortable to use
       * cloud9 public facing URLs are only on ports 8080, 8081, 8082
       * it presents you with the correct URL to paste into the browser
