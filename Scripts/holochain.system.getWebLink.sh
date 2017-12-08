@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#system.getWebLink.sh
 
 hostname=`hostname`
 webHostnameAddress=`echo $hostname | sed 's/\([^-]*\)-\(.*\)-.*/\2.\1/'`

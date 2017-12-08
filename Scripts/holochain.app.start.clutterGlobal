@@ -1,0 +1,45 @@
+#!/bin/bash
+sleepTime=".9"
+port=8080
+
+. $HOME/workspace/Scripts/holochain.system.configureLocalGo.sh
+
+#echo .
+#sleep $sleepTime
+#echo .
+#sleep $sleepTime
+
+#if [ -d "$HOME/workspace/.holochain/clutterglobal" ]; then
+#  	printf "♓: clutterglobal has already been initialised\n"
+#else
+#	echo "♓: Joining the global clutter Holochain App"
+#	hcadmin join $HOME/workspace/holochainApps/clutterGlobal clutterglobal || exit 1
+#fi
+
+
+echo "♓ Connecting to the global clutter decentralised net"
+echo .
+sleep $sleepTime
+echo .
+sleep $sleepTime
+
+echo "♓: Copy this webink, and get ready to open your dapp UI in a webbrowser"
+echo "♓:"
+echo "           `/home/ubuntu/workspace/Scripts/holochain.system.getWebLink.sh $port`"
+sleep $sleepTime
+echo "♓:"
+echo "♓: Once you press enter, the app will take a few seconds to start"
+read
+echo "♓: It will say something like:"
+sleep $sleepTime
+echo
+echo "Serving holochain with DNA hash:Qm...U on port 8080"
+sleep $sleepTime
+echo
+echo "♓: Once the app has started, you can open the link in a webbrowser"
+echo "♓: (If anyone wants to do some UI upgrade work ^-^, head on over to holochain chat room)"
+echo "♓: Press enter to continue"
+read
+
+#hcd --debug --verbose clutterglobal $port
+hcdev --path $HOME/workspace/holochainApps/clutterGlobal web $port
