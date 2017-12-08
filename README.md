@@ -9,7 +9,7 @@
     * Join as a student
     * Select "Work" as your role type
   * navigate to `https://c9.io/holochain`
-  * create a workspace cloning clutter
+  * create a new cloud9 workspace, with all the Scripts needed to develop on Holochain
     * We ask you to keep the workspace name simple, with no hyphens or other clever characters
     * paste in this git URL into the git URL field
       * https://github.com/Holochain/cloud9ForHackathons.git
